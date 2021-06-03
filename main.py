@@ -44,7 +44,7 @@ def strip_columns(file, newfilename):
             writer = csv.writer(result)
             for r in reader:
  
-                writer.writerow((r[6], r[9], r[10], r[11], r[12], r[13], r[14] r[17]))
+                writer.writerow((r[6], r[9], r[10], r[11], r[12], r[13], r[14], r[17]))
 
 def main(file):
     
